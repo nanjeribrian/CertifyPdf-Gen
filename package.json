@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "axios": "^1.4.0",
+    "fs": "^0.0.1-security",
+    "handlebars": "^4.7.7",
+    "jspdf": "^2.5.1",
+    "jspdf-autotable": "^3.5.31",
+    "pdf-creator-node": "^2.3.5",
+    "pdf-lib": "^1.17.1",
+    "pdfkit": "^0.13.0",
+    "pdfshift": "^2.0.1",
+    "puppeteer": "^20.9.0",
+    "wkhtmltopdf": "^0.4.0"
+  },
+  "type": "module"
+}
