@@ -1,7 +1,7 @@
-const pdfshift = require('pdfshift')('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');
+const pdfshift = require('pdfshift')('687715f34d674292a779709ba14d50d9');
 const fs = require('fs');
  
-pdfshift.convert('http://localhost:3000/')
+pdfshift.convert('https://www.example.com')
   .then(function (binary_file) {
     fs.writeFile('result.pdf', binary_file, 'binary', function (err) {
       if (err) {
@@ -11,7 +11,12 @@ pdfshift.convert('http://localhost:3000/')
       }
     });
   })
-  .catch(function ({ message, code, response, errors = null }) {
-    console.error('PDF generation failed:', message);
-  });
+ .catch(function ({ message, code, response, errors = null }) {
+  console.error('PDF generation failed:', message);
+  console.log('Response:', response);
+});
+
+
+
+
 
