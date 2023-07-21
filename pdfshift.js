@@ -1,4 +1,4 @@
-const pdfshift = require('pdfshift')('687715f34d674292a779709ba14d50d9');
+const pdfshift = require('pdfshift')('687715f34d674292a77d50d9');
 const fs = require('fs');
  
 pdfshift.convert('https://www.example.com')
