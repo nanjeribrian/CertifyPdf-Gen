@@ -1,0 +1,5 @@
+//signup to their website and send a GET request to the API with the license key and a URL of a web page you want to convert to a PDF. (postman, or programming language with http support)
+Replace yourlicensekey with your actual license key, and https://www.example.com with the URL of the web page you want to convert.
+Send the GET request and check the response. If the API works correctly, you should receive a PDF file in the response
+
+https://api.html2pdf.co.uk/?license='yourlicensekey'&url=https://www.example.com
